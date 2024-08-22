@@ -14,9 +14,9 @@ public class App {
         
         System.out.println("¿Cuantos vehiculos participaron?");
         
-        float kmRecorrido= 0;
+        float kmRecorrido = 0;
         float ConsumoGasolina = 0;
-        int metrosRecorridos =0;
+        int metrosRecorridos = 0;
         int VParticipacion = sc.nextInt();
         float ConsumoTotal = 0;
 
@@ -24,10 +24,10 @@ public class App {
            
             System.out.println("¿Cuantos metros recorrio el carro " + i + "?"); 
 
-             metrosRecorridos = sc.nextInt();
-             kmRecorrido= metrosRecorridos/1000;
+            metrosRecorridos = sc.nextInt();
+            kmRecorrido= metrosRecorridos/1000;
 
-             ConsumoGasolina = calcularConsumoGasolina(kmRecorrido);
+            ConsumoGasolina = calcularConsumoGasolina(kmRecorrido);
 
             System.out.println("Vehiculo: "+ i +" ----- "+kmRecorrido+"Km"+" --> "+ ConsumoGasolina + " Litros de gasolina");
 
